@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./css/style-login.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/login-icon.jpg" type="image/x-icon" />
+    <script defer src="./js/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <a href="../index.html">
+          <div class="logo">
+            <img
+              src="./img/logo1.jpg"
+              alt="Logo Image"
+              class="logo-img"
+            />
+            <p>
+              <span>W</span>eb <br />
+              <span>D</span>eveloper
+            </p>
+          </div>
+        </a>
+
+        <nav class="links">
+          <div class="search">
+            <input type="text" placeholder="Search..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <ul>
+            <li><a class="nav-links" href="../index.html">Home</a></li>
+            <li><a class="nav-links" href="../index.html">About</a></li>
+            <li><a class="nav-links" href="../index.html">Products</a></li>
+            <li><a class="nav-links" href="../index.html">Services</a></li>
+            <li><a class="nav-links" href="../index.html">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav">
+          <div class="search">
+            <input type="text" placeholder="Search..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <!-- <button class="login">
+            <a href="./asset/login-form.html" target="_blank">
+              <i class="fa-solid fa-right-to-bracket"></i>
+            </a>
+          </button> -->
+
+          <!-- <button class="register">
+            <a href="./asset/register-form.html" target="_blank">
+              <i class="fa-solid fa-user-plus"></i>
+            </a>
+          </button> -->
+
+          <div class="menu-btn">
+            <i class="fa-solid fa-bars toggle-btn"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="form-box">
+        <div class="form-value">
+          <form action="">
+            <h2>Login</h2>
+            <div class="inputbox">
+              <ion-icon name="mail-outline"></ion-icon>
+              <input type="email" id="email" required />
+              <label for="email">Email</label>
+            </div>
+            <div class="inputbox">
+              <ion-icon name="lock-closed-outline"></ion-icon>
+              <input type="password" id="password" required />
+              <label for="password">Password</label>
+            </div>
+            <div class="forgot">
+              <label for="remember">
+                <input type="checkbox" id="remember"/>Remember Me
+                <a href="#">Forgot Password</a>
+              </label>
+            </div>
+            <button>Log in</button>
+            <div class="register">
+              <p><span>Don't have a account </span><a href="#">Register</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

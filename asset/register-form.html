@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./css/style-register.css" />
+    <link rel="icon" href="./assets/images/icon.ico" type="image/x-icon" />
+    <script defer src="./js/register.js.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="header-container">
+        <a href="../index.html">
+          <div class="logo">
+            <img src="./img/logo1.jpg" alt="Logo Image" class="logo-img" />
+            <p>
+              <span>W</span>eb <br />
+              <span>D</span>eveloper
+            </p>
+          </div>
+        </a>
+
+        <nav class="links">
+          <div class="search">
+            <input type="text" placeholder="Search..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <ul>
+            <li><a class="nav-links" href="../index.html">Home</a></li>
+            <li><a class="nav-links" href="../index.html">About</a></li>
+            <li><a class="nav-links" href="../index.html">Products</a></li>
+            <li><a class="nav-links" href="../index.html">Services</a></li>
+            <li><a class="nav-links" href="../index.html">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav">
+          <div class="search">
+            <input type="text" placeholder="Search..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <!-- <button class="login">
+            <a href="./asset/login-form.html" target="_blank">
+              <i class="fa-solid fa-right-to-bracket"></i>
+            </a>
+          </button> -->
+
+          <!-- <button class="register">
+            <a href="./asset/register-form.html" target="_blank">
+              <i class="fa-solid fa-user-plus"></i>
+            </a>
+          </button> -->
+
+          <div class="menu-btn">
+            <i class="fa-solid fa-bars toggle-btn"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="form-container">
+      <h1 class="heading">Form Validation</h1>
+      <div class="container">
+        <form action="#" id="form" class="form" autocomplete="off">
+          <h3>Registration Form</h3>
+          <div class="form-group">
+            <label for="username">User Name</label>
+            <input
+              type="text"
+              id="username"
+              placeholder="Enter user name"
+              data-name="User name"
+            />
+            <p>Erroe Message</p>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              placeholder="Enter email Id"
+              data-name="Email Id"
+            />
+            <p>Erroe Message</p>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter password"
+              data-name="Password"
+            />
+            <p>Erroe Message</p>
+          </div>
+          <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input
+              type="password"
+              id="password2"
+              placeholder="Enter confirm password"
+              data-name="Confirm password"
+            />
+            <p>Erroe Message</p>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
